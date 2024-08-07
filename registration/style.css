@@ -49,7 +49,6 @@ body {
     color: #008374;
 }
 .row {
-    /* max-width: 800px; */
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -61,11 +60,6 @@ body {
 .gender-btns {
     display: flex;
 }
-
-/* .gender-radio {
-    position: absolute;
-    left: 20px;
-} */
 .password-container {
     position: relative;
 }
