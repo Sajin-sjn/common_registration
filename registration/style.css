@@ -6,13 +6,6 @@
 body {
     padding: 10px;
 }
-/* .container.major {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-} */
 .major {
     margin: 4rem 0 4rem 0;
 }
