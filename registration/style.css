@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px;
+}
+/* .container.major {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+} */
+.major {
+    margin: 4rem 0 4rem 0;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.form-group input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.75rem 0.75rem 0.75rem 2.45rem;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #999;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    background: white;
+    padding: 0 5px;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+    top: -0.35rem;
+    left: 30px;
+    font-size: 0.85rem;
+    color: #008374;
+}
+.form-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #008374;
+}
+.row {
+    /* max-width: 800px; */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gender-label {
+    position: relative;
+    left: 36px;
+    color: #999;
+}
+.gender-btns {
+    display: flex;
+}
+
+/* .gender-radio {
+    position: absolute;
+    left: 20px;
+} */
+.password-container {
+    position: relative;
+}
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.form-check {
+    left: 5px;
+}
+.register {
+    margin-bottom: 2rem;
+}
